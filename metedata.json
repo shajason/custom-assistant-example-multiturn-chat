@@ -1,0 +1,8 @@
+{
+  "name": "Coach Custom Assistant (Chat) - Ask Questions about Intro to Python",
+  "type": "helper",
+  "properties": {
+    "user_type": "all", 
+    "component": "all"
+  }
+}
