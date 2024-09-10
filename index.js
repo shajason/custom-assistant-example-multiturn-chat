@@ -55,7 +55,7 @@ relevant course resources. Help them think through the problem rather than givin
 
   // register(id: unique button id, name: name of button visible in Coach, function: function to call when button is clicked) 
   codioIDE.coachBot.register("iNeedHelpButton", "I have a question", onButtonPress)
-
+  
   // function called when I have a question button is pressed
   async function onButtonPress() {
 
@@ -68,7 +68,16 @@ relevant course resources. Help them think through the problem rather than givin
     
     while (true) {
       
-      const input = await codioIDE.coachBot.input()
+      let input
+
+      try {
+        input = await codioIDE.coachBot.input()
+      } catch (e) {
+          if (e.message == "Cancelled") {
+            break
+          }
+      }
+
       
       // Specify condition here to exit loop gracefully
       if (input == "Thanks") {
@@ -80,7 +89,8 @@ relevant course resources. Help them think through the problem rather than givin
         <student_question>\n" + input + "\n</student_question>\n\
       Please provide your response to the student by following the specified guidelines. \
       Remember, do not give away any answers or solutions to assignment questions or quizzes. \
-      Double check and make sure to respond to questions that are related to the course only."
+      Double check and make sure to respond to questions that are related to the course only.\
+      For simple questions, keep your answer brief and short."
 
 
       messages.push({
@@ -102,7 +112,7 @@ relevant course resources. Help them think through the problem rather than givin
       console.log("history", history)
 
     }
-    codioIDE.coachBot.write("You're welcome! Please feel free to ask any more questions about this course!")
+    codioIDE.coachBot.write("Please feel free to ask any more questions about this course!")
     codioIDE.coachBot.showMenu()
   }
 
