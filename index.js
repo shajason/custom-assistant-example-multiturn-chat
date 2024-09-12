@@ -59,6 +59,8 @@ relevant course resources. Help them think through the problem rather than givin
   // function called when I have a question button is pressed
   async function onButtonPress() {
 
+    codioIDE.coachBot.write("Sure! Please type or paste any questions you have about this course.")
+
     // the messages object that will persist conversation history
     let messages = []
     
