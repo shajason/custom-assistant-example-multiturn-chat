@@ -1,7 +1,7 @@
 # custom-assistant-example-multiturn-chat
 This assistant is designed to answer student questions about the Intro to Python course, without giving away solutions.
 
-The system prompt contains the course structure with module and assignment names. It also has general guidelines for the LLM to follow.
+The system prompt contains the course structure with module and assignment names. It also has general guidelines for the LLM to follow. (make changes here to adapt this for any course)
 
 It starts a new chat session on every button click.
 The message history of the last 4-5 interactions in the session is passed back to the LLM as context before it answers the next question.
