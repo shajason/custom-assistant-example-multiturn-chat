@@ -1,5 +1,5 @@
 # custom-assistant-example-multiturn-chat
-This assistant is designed to answer student questions about the Intro to Python course, without giving away solutions.
+This assistant is designed to answer student questions about JavaScript topics, without giving away solutions.
 
 The system prompt contains the course structure with module and assignment names. It also has general guidelines for the LLM to follow. (make changes here to adapt this for any course)
 
