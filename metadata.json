@@ -1,5 +1,5 @@
 {
-  "name": "Coach Custom Assistant (Chat) - Ask Questions about Intro to Python",
+  "name": "JavaScript Assistant",
   "type": "helper",
   "properties": {
     "user_type": "all", 
