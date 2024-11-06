@@ -6,7 +6,7 @@
   const systemPrompt = `You are a helpful assistant helping students with questions about the following course:
 
 <course_name>
-Introduction to Python
+Introduction to JavaScript
 </course_name>
 
 The topics covered in this course are:
