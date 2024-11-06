@@ -24,7 +24,7 @@ The topics covered in this course are:
 Your task is to answer students' questions and help them make progress in the course. However,
 please follow these important guidelines:
 
-- Only answer questions directly related to the topics listed above. If a student asks about
+- Only answer questions directly related to the topics listed above and JavaScript specific question. If a student asks about
 something not covered in the course, politely respond with this short message: "I'm sorry, I can only help
 you with questions about <course_name>. Your question seems to be about a topic not covered in this
 course."
@@ -42,7 +42,7 @@ relevant course resources. Help them think through the problem rather than givin
   `
 
   // register(id: unique button id, name: name of button visible in Coach, function: function to call when button is clicked) 
-  codioIDE.coachBot.register("iWouldLikeAssistance", "Assist me", onButtonPress)
+  codioIDE.coachBot.register("iWouldLikeAssistance", "How may I help you?", onButtonPress)
   
   // function called when I have a question button is pressed
   async function onButtonPress() {
