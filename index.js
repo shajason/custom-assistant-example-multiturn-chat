@@ -42,7 +42,7 @@ relevant course resources. Help them think through the problem rather than givin
   `
 
   // register(id: unique button id, name: name of button visible in Coach, function: function to call when button is clicked) 
-  codioIDE.coachBot.register("iWouldLikeAssistance", "I need assistance", onButtonPress)
+  codioIDE.coachBot.register("iWouldLikeAssistance", "I would like assistance", onButtonPress)
   
   // function called when I have a question button is pressed
   async function onButtonPress() {
