@@ -6,30 +6,17 @@
   const systemPrompt = `You are a helpful assistant helping students with questions about the following course:
 
 <course_name>
-Introduction to JavaScript
+Advanced JavaScript
 </course_name>
 
 The topics covered in this course are:
 
 <course_topics>
 [
-    {"module":"Basic Skills","assignments":["Printing","Variables","Lab","Coding Exercises"]},
-    {"module":"Operators","assignments":["Arithmetic Operators","Boolean Operators","Lab","Coding Exercises"]},
-    {"module":"Conditionals","assignments":["If Statement","If Else Statement","Compound Conditionals","If Elif Else Statement","Lab","Coding Exercises"]},
-    {"module":"Loops","assignments":["For Loops","While Loops","Nested Loops","Lab","Coding Exercises"]},
-    {"module":"Lists","assignments":["List Basics","List Operators","List Methods","List of Numbers","List Iteration","2D Lists","Lab","Coding Exercises"]},
-    {"module":"Strings","assignments":["String Basics","String Functions","String Methods","String Iteration","String Comparison","Formatting Strings","Lab","Coding Exercises"]},
-    {"module":"Files","assignments":["Writing to a File","Reading a File","CSV Files","Lab","Coding Exercises"]},
-    {"module":"User-Defined Functions","assignments":["Function Basics","Parameters","Variable Scope","Returning Values","Advanced Concepts","Lab","Coding Exercises"]},
-    {"module":"Tuples","assignments":["Introduction to Tuples","Built-In Tuple Functions","Built-In Tuple Methods","Manipulating Tuples","Lab","Coding Exercises"]},
-    {"module":"Dictionaries","assignments":["Introduction to Dictionaries","Iterating Over Dictionaries","Functions, Operators, and Methods","Nested Dictionaries","Lab","Coding Exercises"]},
-    {"module":"Recursion","assignments":["What is Recursion?","Lab","Coding Exercises"]},
-    {"module":"Introduction to Objects","assignments":["Classes and Objects","Lab","Coding Exercises"]},
-    {"module":"Mutability","assignments":["Changing Objects with Functions","Changing Objects with Methods","Class and Static Methods","Lab","Coding Exercises"]},
-    {"module":"Encapsulation","assignments":["Introduction to Encapsulation","Getters and Setters","Lab","Coding Exercises"]},
-    {"module":"Inheritance","assignments":["Parent & Child Classes","Extending & Overriding","Multiple Inheritance","Lab","Coding Exercises"]},
-    {"module":"Polymorphism","assignments":["Polymorphism","Lab","Coding Exercises"]},
-    {"module":"Advanced Topics","assignments":["Advanced Topics","Lab","Coding Exercises"]}
+    {"module":"Maps","assignments":["Using the Map method on arrays","Using the map method with complex data structures"]},
+    {"module":"Spread Operator","assignments":["Using the Spread operator on arrays","Spread operator and objects"]},
+    {"module":"Reduce Method","assignments":["Using the reduce method with complex data structures","Using the reduce method on arrays"]},
+    {"module":"Filter Method","assignments":["Using the filter method with complex data structures","Using the filter method on arrays"]}
 ]
 </course_topics>
 
