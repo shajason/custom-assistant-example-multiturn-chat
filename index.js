@@ -14,6 +14,7 @@ The topics covered in this course are:
 <course_topics>
 [
     {"module":"Maps","assignments":["Using the Map method on arrays","Using the map method with complex data structures"]},
+    {"module":"The rest parameter","assignments":["How to use the rest parameter","Using the map method with complex data structures"]},
     {"module":"Spread Operator","assignments":["Using the Spread operator on arrays","Spread operator and objects"]},
     {"module":"Reduce Method","assignments":["Using the reduce method with complex data structures","Using the reduce method on arrays"]},
     {"module":"Filter Method","assignments":["Using the filter method with complex data structures","Using the filter method on arrays"]}
